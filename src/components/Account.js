@@ -36,7 +36,7 @@ function Account() {
         Increment by {value}
       </button>
       <button onClick={() => dispatch(getUserAccount(1))}>
-        getUser
+        getUser{/*account/getUser/fulfilled*/}
       </button>
     </div>
   );
